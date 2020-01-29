@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 86 86" style="enable-background:new 0 0 86 86;" xml:space="preserve">
+<style type="text/css">
+	.st0{filter:url(#filter-2);}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#9A6F39;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#1E99D3;}
+	.st4{fill:#FFFFFF;}
+</style>
+<filter  filterUnits="objectBoundingBox" height="140.7%" id="filter-2" width="140.7%" x="-18.0%" y="-14.5%">
+	<feMorphology  in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"></feMorphology>
+	<feOffset  dx="2" dy="5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+	<feGaussianBlur  in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"></feGaussianBlur>
+	
+		<feColorMatrix  in="shadowBlurOuter1" type="matrix" values="0 0 0 0 0.140571854   0 0 0 0 0.140571854   0 0 0 0 0.140571854  0 0 0 0.5 0">
+		</feColorMatrix>
+</filter>
+<title>button_send</title>
+<desc>Created with Sketch.</desc>
+<g id="button_send">
+	<g id="Group-20">
+		<g id="Oval">
+			<g class="st0">
+				<circle id="path-1_1_" class="st1" cx="43" cy="43" r="43"/>
+			</g>
+			<g>
+				<circle class="st2" cx="43" cy="43" r="43"/>
+			</g>
+		</g>
+		<circle class="st3" cx="43" cy="43" r="43"/>
+		<g id="send" transform="translate(23.000000, 28.000000)">
+			<path id="Shape" class="st4" d="M35.57,0.28c-0.34-0.28-0.8-0.35-1.2-0.19L3.97,12.35c-0.31,0.12-0.46,0.47-0.33,0.78
+				s0.47,0.46,0.78,0.33L33.46,1.75l-14.4,16.98c-0.21,0.25-0.18,0.63,0.07,0.85c0.25,0.21,0.63,0.18,0.85-0.07L34.59,2.27
+				l-1.95,9.81l-1.97,13.15c-0.03,0.18-0.14,0.35-0.3,0.44c-0.16,0.09-0.34,0.1-0.51,0.02l-8.18-3.22l-3.93-1.64
+				c-0.31-0.13-0.66,0.02-0.79,0.32c-0.01,0.04-0.02,0.08-0.03,0.13h-0.01l-1.95,7.53l-2.8-9.77L26.76,8.17
+				c0.19-0.12,0.29-0.34,0.27-0.56c-0.02-0.22-0.16-0.41-0.37-0.5c-0.21-0.08-0.44-0.05-0.61,0.1L11.39,18.12L0.82,13.84
+				c-0.31-0.12-0.65,0.03-0.78,0.33c-0.12,0.31,0.02,0.65,0.33,0.78l10.62,4.3l2.83,9.89c0.15,0.51,0.62,0.86,1.15,0.86h0.01
+				c0.29-0.01,0.57-0.12,0.78-0.31c0.02-0.01,0.04-0.03,0.06-0.04l5.8-5.93l7.78,3.08c0.5,0.21,1.07,0.18,1.54-0.09
+				c0.49-0.27,0.82-0.75,0.9-1.3l1.96-13.13l2.16-10.84C36.06,1.01,35.91,0.56,35.57,0.28z M16.66,27.08l1.27-4.88l1.98,0.83
+				l0.51,0.2L16.66,27.08z"/>
+		</g>
+	</g>
+</g>
+</svg>

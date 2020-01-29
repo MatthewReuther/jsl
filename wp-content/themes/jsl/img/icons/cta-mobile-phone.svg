@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Mask</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M249.413333,22.1933333 C250.373333,24.08 251.92,25.62 253.806667,26.5866667 L255.273333,25.12 C255.453333,24.94 255.72,24.88 255.953333,24.96 C256.7,25.2066667 257.506667,25.34 258.333333,25.34 C258.7,25.34 259,25.64 259,26.0066667 L259,28.3333333 C259,28.7 258.7,29 258.333333,29 C252.073333,29 247,23.9266667 247,17.6666667 C247,17.3 247.3,17 247.666667,17 L250,17 C250.366667,17 250.666667,17.3 250.666667,17.6666667 C250.666667,18.5 250.8,19.3 251.046667,20.0466667 C251.12,20.28 251.066667,20.54 250.88,20.7266667 L249.413333,22.1933333 L249.413333,22.1933333 Z" id="path-1"></path>
+    </defs>
+    <g id="homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tablet" transform="translate(-247.000000, -17.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

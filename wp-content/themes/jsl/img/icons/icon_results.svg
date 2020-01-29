@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="63" height="61" viewBox="0 0 63 61">
+  <defs>
+    <linearGradient id="icon_results-a" x1="24.897%" x2="74.31%" y1="-11.996%" y2="109.898%">
+      <stop offset="0%" stop-color="#C38454"/>
+      <stop offset="36%" stop-color="#C38454"/>
+      <stop offset="47.047%" stop-color="#BE8651"/>
+      <stop offset="68%" stop-color="#B67F4F"/>
+      <stop offset="85%" stop-color="#92683F"/>
+      <stop offset="100%" stop-color="#876045"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd" stroke="url(#icon_results-a)" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+    <path d="M2.73913043 41.0869565L2.73913043 57.5217391M10.9565217 35.6086957L10.9565217 57.5217391M19.173913 30.1304348L19.173913 57.5217391M27.3913043 41.0869565L27.3913043 57.5217391M43.826087 31.5L43.826087 57.5217391M35.6086957 38.3478261L35.6086957 57.5217391M52.0434783 23.2826087L52.0434783 57.5217391M60.2608696 17.8043478L60.2608696 57.5217391"/>
+    <polyline points="2.93 29.302 19.174 16.435 27.391 27.391 56.21 5.777 60.261 2.739 52.043 0"/>
+    <path d="M60.2608696,2.73913043 L60.2608696,10.9565217"/>
+  </g>
+</svg>

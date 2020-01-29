@@ -1,0 +1,1013 @@
+/*
+Theme Name: BHL - Brian Hodgkiss v1.0
+Author: cj Advertising
+Author URI: http://www.cjadvertising.com
+Description: Custom WordPress theme developed for Brian Hodgkiss. By the best, for the best!
+*/
+/* ================================== 
+      =Base, Browser Normalization
+      ==================================*/
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden],
+template {
+  display: none;
+}
+
+a {
+  background-color: transparent;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+dfn {
+  font-style: italic;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+pre {
+  overflow: auto;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+button {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+*
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+  border: 0;
+  padding: 0;
+}
+
+textarea {
+  overflow: auto;
+}
+
+optgroup {
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+*
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.chromeframe {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: black;
+  padding: 0.2em 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a, a:link, a:visited {
+  color: #2075ba;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/*  WORDPRESS EDITOR STYLES */
+.entry-content img {
+  margin: 0 0 1.5em 0;
+}
+
+.alignleft, img.alignleft {
+  margin-right: 1.5em;
+  display: inline;
+  float: left;
+}
+
+.alignright, img.alignright {
+  margin-left: 1.5em;
+  display: inline;
+  float: right;
+}
+
+.aligncenter, img.aligncenter {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  clear: both;
+}
+
+.alignnone, img.alignnone {
+  /* not sure about this one */
+}
+
+.wp-caption {
+  margin-bottom: 1.5em;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.wp-caption img {
+  border: 0 none;
+  padding: 0;
+  margin: 0;
+}
+
+.wp-caption p.wp-caption-text {
+  line-height: 1.5;
+  font-size: 10px;
+  margin: 0;
+}
+
+.wp-smiley {
+  margin: 0 !important;
+  max-height: 1em;
+}
+
+blockquote.left {
+  margin-right: 20px;
+  text-align: right;
+  margin-left: 0;
+  width: 33%;
+  float: left;
+}
+
+blockquote.right {
+  margin-left: 20px;
+  text-align: left;
+  margin-right: 0;
+  width: 33%;
+  float: right;
+}
+
+/*================================== 
+   =Typography
+==================================*/
+html {
+  font-size: 62.5%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+html, button, input, select, textarea {
+  font-family: sans-serif;
+  color: #616e78;
+}
+
+body {
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* 1.6rem = 16px */
+html, body, button, input, select, textarea {
+  font-family: 'Ubuntu', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  color: #2175bb;
+  font-size: 30px;
+  font-size: 3rem;
+  font-weight: 300;
+  margin: 31px 0;
+  margin: 3.1rem 0;
+}
+
+h3 {
+  color: #2175bb;
+  font-size: 30px;
+  font-size: 3rem;
+  font-weight: 300;
+  margin: 31px 0;
+  margin: 3.1rem 0;
+}
+
+h4 {
+  color: #2075ba;
+  font-size: 20px;
+  font-size: 2.0rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.section-title {
+  text-align: center;
+}
+.section-title:after {
+  background-color: #2075ba;
+  content: " ";
+  display: block;
+  text-align: center;
+  margin: 10px auto;
+  height: 2px;
+  width: 40px;
+}
+
+h5 {
+  margin-bottom: 0;
+  padding: 0.25em 0;
+  font-size: 14px;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: #616e78;
+}
+
+/* =================================== 
+   =FORMS
+   =================================== */
+::-webkit-input-placeholder {
+  font-family: MyriadPro-Regular;
+  font-size: 15px;
+  color: #59626A;
+  letter-spacing: 0.1px;
+  line-height: 25px;
+}
+
+::-moz-placeholder {
+  font-family: MyriadPro-Regular;
+  font-size: 15px;
+  color: #59626A;
+  letter-spacing: 0.1px;
+  line-height: 25px;
+}
+
+:-ms-input-placeholder {
+  font-family: MyriadPro-Regular;
+  font-size: 15px;
+  color: #59626A;
+  letter-spacing: 0.1px;
+  line-height: 25px;
+}
+
+input:-moz-placeholder {
+  font-family: MyriadPro-Regular;
+  font-size: 15px;
+  color: #59626A;
+  letter-spacing: 0.1px;
+  line-height: 25px;
+}
+
+.placeholder {
+  font-family: MyriadPro-Regular;
+  font-size: 15px;
+  color: #59626A;
+  letter-spacing: 0.1px;
+  line-height: 25px;
+}
+
+/* =Full Width Form */
+/* =End Full Width Form */
+/*================================== 
+   =Buttons
+  ==================================*/
+.btn-box {
+  border-radius: 3px;
+  display: inline-block;
+  min-height: 40px;
+  min-width: 100px;
+  position: relative;
+}
+
+.btn, a.btn {
+  border: 1px solid #000;
+  border-radius: 3px;
+  display: block;
+  padding: 6px 15px;
+  padding: 0.65rem 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: ease-in-out all .2s;
+          transition: ease-in-out all .2s;
+}
+.btn:hover, a.btn:hover {
+  text-decoration: none;
+}
+
+/*================================== 
+   =Icons
+  ==================================*/
+.icon-document {
+  display: inline-block;
+  margin-right: 12px;
+}
+.icon-document svg {
+  fill: #2075ba;
+  width: 30px;
+  height: 36px;
+  -webkit-transition: ease-in-out all .2s;
+          transition: ease-in-out all .2s;
+}
+
+.icon-play {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 11px 11px 11px 17px;
+  -webkit-transition: ease-in-out all .2s;
+          transition: ease-in-out all .2s;
+}
+.icon-play img, .icon-play svg {
+  fill: #fff;
+  height: 25px;
+  width: 20px;
+  -webkit-transition: ease-in-out all .2s;
+          transition: ease-in-out all .2s;
+}
+.icon-play:hover {
+  cursor: pointer;
+}
+.icon-play:hover svg {
+  fill: #2075ba;
+  -webkit-transition: ease-in-out all .2s;
+          transition: ease-in-out all .2s;
+}
+
+.icon-menu {
+  display: block;
+  height: 22px;
+  width: 22px;
+}
+.icon-menu svg {
+  height: 22px;
+  width: 22px;
+  fill: #2075ba;
+  -webkit-transition: ease-in-out all .2s;
+          transition: ease-in-out all .2s;
+}
+
+.icon-close {
+  display: block;
+  height: 17px;
+  width: 17px;
+}
+.icon-close svg {
+  vertical-align: top;
+  width: 18px;
+  height: 18px;
+  fill: #fff;
+  -webkit-transition: ease-in-out all .2s;
+          transition: ease-in-out all .2s;
+}
+
+.icon-features svg {
+  height: 45px;
+  width: 42px;
+}
+
+.icon-price svg {
+  height: 45px;
+  width: 67px;
+}
+
+.icon-results svg {
+  height: 36px;
+  width: 43px;
+}
+
+.social-icon {
+  background-color: #FFF;
+  border-radius: 50%;
+  display: block;
+  font-size: 14px;
+  font-size: 1.4rem;
+  height: 40px;
+  line-height: 14px;
+  padding: 10px;
+  width: 40px;
+}
+.social-icon svg {
+  fill: #2075ba;
+  height: 20px;
+  vertical-align: middle;
+  width: 20px;
+}
+
+/* ================================== 
+   =HEADER - Banner
+   ==================================*/
+.feature-container {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 460px;
+}
+
+/* ================================== 
+   =NAVIGATION - Main & Mobile Navigation
+   ==================================*/
+.desktop-nav-wrap {
+  float: right;
+}
+.desktop-nav-wrap .menu {
+  text-align: right;
+}
+.desktop-nav-wrap .menu > li {
+  display: inline-block;
+  text-align: left;
+}
+.desktop-nav-wrap .menu > li > a {
+  display: inline-block;
+}
+.desktop-nav-wrap a {
+  color: #2075ba;
+  font-weight: 500;
+  padding: 6px 36px;
+  padding: 0.65rem 3.6rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.desktop-nav-wrap a:hover {
+  color: #275982;
+}
+.lt-ie8 .desktop-nav-wrap .menu > li, .lt-ie8 .desktop-nav-wrap .menu a {
+  display: inline;
+  zoom: 1;
+}
+
+/* Mobile Navigation */
+.mobile-nav-wrap {
+  background-color: rgba(32, 117, 186, 0.95);
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+.mobile-nav-wrap .menu {
+  display: none;
+  text-align: center;
+}
+.mobile-nav-wrap .menu li {
+  position: relative;
+}
+.mobile-nav-wrap .menu a {
+  color: #fff;
+  display: block;
+  font-size: 24px;
+  font-size: 2.4rem;
+  padding: 14px 0;
+  text-decoration: none;
+}
+.mobile-nav-wrap .mobile-nav {
+  padding-top: 70px;
+}
+.mobile-nav-wrap .mobile-nav-secondary {
+  padding-bottom: 90px;
+}
+.mobile-nav-wrap .mobile-nav-secondary a {
+  font-size: 16px;
+  font-size: 1.6rem;
+}
+.mobile-nav-wrap .btn-login {
+  bottom: 40px;
+  display: none;
+  text-align: center;
+  width: 100%;
+}
+.mobile-nav-wrap .btn-login:hover a {
+  color: #2075ba;
+}
+
+/* State Change */
+.mobile-nav-wrap.expanded {
+  min-height: 100%;
+}
+.mobile-nav-wrap.expanded .btn-close-nav {
+  left: 0;
+  opacity: 1;
+  z-index: 100;
+}
+.mobile-nav-wrap.expanded .btn-close-nav svg {
+  height: 18px;
+  width: 18px;
+}
+.mobile-nav-wrap.expanded .btn-close-nav:hover svg {
+  fill: #2075ba;
+}
+.mobile-nav-wrap.expanded .btn-login {
+  display: block;
+}
+.mobile-nav-wrap.expanded .btn-login .btn {
+  border-color: #fff;
+  color: #fff;
+  display: inline-block;
+  font-weight: 500;
+  margin: 0 auto;
+  min-width: 100px;
+  width: auto;
+}
+.mobile-nav-wrap.expanded .btn-login:hover a {
+  color: #2075ba;
+}
+
+.btn-mobile-nav {
+  display: none;
+  float: left;
+  font-size: 14px;
+  line-height: 14px;
+  margin-right: 10px;
+  padding: 8px;
+  position: relative;
+}
+.btn-mobile-nav:hover {
+  cursor: pointer;
+}
+.btn-mobile-nav:hover svg {
+  fill: #fff;
+  width: 22px;
+  height: 22px;
+}
+.btn-mobile-nav span {
+  padding-left: 22px;
+}
+
+.btn-close-nav {
+  opacity: 0;
+  padding: 12px;
+  position: absolute;
+  left: -50px;
+  top: 10px;
+  -webkit-transition: ease-in-out all .5s;
+          transition: ease-in-out all .5s;
+  z-index: 90;
+}
+.btn-close-nav:hover {
+  cursor: pointer;
+}
+
+/* =================================
+   =MAIN - Content, Sidebar
+	================================*/
+/*================================== 
+   =Sidebar
+ ==================================*/
+/* ================================== 
+   =FOOTER
+   ==================================*/
+.footer-container {
+  background-color: #444;
+}
+
+.frame-footer {
+  color: #fff;
+}
+.frame-footer .social-nav {
+  float: right;
+}
+.frame-footer .social-nav ul {
+  text-align: center;
+}
+.frame-footer .social-nav li {
+  float: left;
+}
+.frame-footer .social-nav li + li {
+  margin-left: 20px;
+}
+
+/* ================================== 
+  =Structure - Layout, Frames, Body
+==================================*/
+html, body {
+  height: 100%;
+}
+
+.frame {
+  margin: 0 auto;
+  width: 900px;
+}
+
+.content {
+  margin: 0 auto;
+}
+
+/* =Two Column Layout */
+.frame-main.col-2 {
+  width: 900px;
+}
+.frame-main.col-2 .content {
+  float: left;
+  width: 590px;
+}
+.frame-main.col-2 .sidebar {
+  float: right;
+  width: 290px;
+}
+
+/* =Two Column Layout */
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+.ir {
+  display: block;
+  border: 0;
+  text-indent: -999em;
+  overflow: hidden;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  text-align: left;
+  direction: ltr;
+  *line-height: 0;
+}
+
+.ir br {
+  display: none;
+}
+
+/*
+ * Hide visually and from screen readers:
+ */
+.hidden {
+  display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+.invisible {
+  visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/* ==|== print styles =======================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media only screen and (max-width: 1240px) {
+  html {
+    background-color: transparent;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  html {
+    background-color: transparent;
+  }
+  h1 {
+    font-size: 24px;
+    font-size: 2.4rem;
+  }
+  h3 {
+    font-size: 24px;
+    font-size: 2.4rem;
+  }
+  .desktop-nav-wrap {
+    display: none;
+  }
+  .mobile-nav-wrap {
+    display: block;
+  }
+  .btn-mobile-nav {
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  html {
+    background-color: transparent;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  html {
+    background-color: transparent;
+  }
+}
+
+@media print {
+  * {
+    background: transparent !important;
+    color: black !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    -webkit-filter: none !important;
+    filter: none !important;
+    -ms-filter: none !important;
+  }/* Black prints faster: h5bp.com/s */
+  a, a:visited {
+    text-decoration: underline;
+  }
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+    content: "";
+  }/* Don't show links for images, or javascript/internal links */
+  pre, blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  thead {
+    display: table-header-group;
+  }/* h5bp.com/t */
+  tr, img {
+    page-break-inside: avoid;
+  }
+  img {
+    max-width: 100% !important;
+  }
+  @page {
+    margin: 0.5cm;
+  }
+  p, h2, h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2, h3 {
+    page-break-after: avoid;
+  }
+}
+
+/*# sourceMappingURL=_grunt/css/style.css.map */

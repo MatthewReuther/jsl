@@ -1,0 +1,56 @@
+/*================================== 
+   =Typography
+==================================*/
+html {
+	font-size: 62.5%; 
+	-webkit-text-size-adjust: 100%; 
+	-ms-text-size-adjust: 100%; 
+}
+
+html, button, input, select, textarea { 
+	font-family: sans-serif; 
+	color: $body_text_color; 
+}
+
+// Using rem units for consistent and predictable sizing in all browsers and resizable text in the current versions of all major browsers. Pixels values for fallback. 
+body { font-size: 16px; font-size: 1.6rem; line-height: normal; margin: 0; } /* 1.6rem = 16px */
+
+html, body, button, input, select, textarea {
+	font-family: proxima-nova, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+h1, .h1 {
+	  font-family: proxima-nova, sans-serif;
+	  font-size: 26px;
+	  font-size: 2.6rem;
+	  font-weight: bold;
+	  font-style: normal;
+	  font-stretch: normal;
+	  line-height: normal;
+	  letter-spacing: normal;
+	  text-transform: uppercase;
+}
+h2, .h2 {
+	font-family: proxima-nova, sans-serif;
+	font-size: 24px;
+	font-size: 2.4rem;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+}
+h3 {
+	font-family: proxima-nova, sans-serif;
+	font-size: 20px;
+	font-size: 2.0rem;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 0.38px;
+}
+

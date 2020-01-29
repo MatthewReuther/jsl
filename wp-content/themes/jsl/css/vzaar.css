@@ -1,0 +1,49 @@
+.video-pop * {
+  box-sizing: content-box;
+}
+
+.cjvideo {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+}
+
+.cjvideo-16x9 {
+    padding-bottom: 56.25%;
+}
+
+.cjvideo-4x3 {
+    padding-bottom: 75%;
+}
+.cjvideo-playlist {
+    padding-bottom: 72%;
+}
+.cjvideo iframe {
+    position: absolute;
+    top:0;
+      left: 0;
+      height: 100%;
+    max-width: 100%;
+    width: 100%;
+}
+
+@media only screen and (max-width:1023px) {
+
+    .cjvideo-playlist {
+        padding-bottom: 77%;
+    }
+
+}
+
+@media only screen and (max-width:719px) {
+    .cjvideo-playlist {
+        padding-bottom: 76%;
+    }
+
+}
+
+@media only screen and (max-width:479px) {
+    .cjvideo-playlist {
+        padding-bottom: 93%;
+    }
+}

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="63" height="61" viewBox="0 0 63 61">
+  <defs>
+    <linearGradient id="icon_experienced-a" x1="24.897%" x2="74.31%" y1="-11.996%" y2="109.898%">
+      <stop offset="0%" stop-color="#C38454"/>
+      <stop offset="36%" stop-color="#C38454"/>
+      <stop offset="47.047%" stop-color="#BE8651"/>
+      <stop offset="68%" stop-color="#B67F4F"/>
+      <stop offset="85%" stop-color="#92683F"/>
+      <stop offset="100%" stop-color="#876045"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <circle cx="31.5" cy="30.5" r="28.5" stroke="url(#icon_experienced-a)" stroke-width="3"/>
+    <polygon stroke="url(#icon_experienced-a)" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" points="32 38.504 23.966 42.727 25.5 33.781 19 27.445 27.983 26.14 32 18 36.017 26.14 45 27.445 38.5 33.781 40.034 42.727"/>
+  </g>
+</svg>

@@ -1,0 +1,422 @@
+.page--home {
+	.feature-container {
+		max-height: 833px;
+		  height:78vw;
+		 background-position: center center;
+		 @include breakpoint(tablet) {
+		 	height: 620px;
+		 }
+		 @include breakpoint(mobile_portrait) {
+		 	height: 430px;
+		 }
+		.feature {
+			display: flex;
+			justify-content: center;
+			align-items: flex-end;
+			&--title {
+				position: absolute;
+				    right: 6%;
+				    top: 16%;
+				    color: #fff;
+				    font-size: 34px;
+				    font-size: 3.4rem;
+				    color: #FFFFFF;
+				    letter-spacing: 0.22px;
+				    text-align: center;
+				    font-weight: bold;
+				    @include breakpoint(tablet) {
+				    font-size: 30px;
+				    font-size: 3rem;
+							right: 9%;
+				    }
+
+				    @include breakpoint(mobile_landscape) {
+					    display: none;
+				    }
+
+
+			}
+			&--content {
+				position: absolute;
+				top: 25%;
+				right: 5%;
+				@include breakpoint(tablet) {
+					top: 30%;
+					right: 12%;
+				}
+				@include breakpoint(mobile_landscape) {
+					right: auto;
+					left: 50%;
+					top: 65%;
+					transform: translateX(-50%);
+				}
+				@include breakpoint(mobile_portrait) {
+					top: 77%;
+				}
+				.box__img {
+					width: 320px;
+					height: 150px;
+					@include breakpoint(tablet) {
+						width: 238px;
+						height: 112px;
+					}
+					img {
+						max-width: 100%;
+					}
+				}
+			}
+
+		}
+		.attorney-img {
+			position: absolute;
+			    top: 34px;
+			    left: 100px;
+			@include breakpoint(tablet) {
+				height: 582px;
+				left: 5%;
+			}
+			@include breakpoint(mobile_landscape) {
+				left: 50%;
+				transform: translateX(-50%);
+				top: 10%;
+				width: 80%;
+				text-align: center;
+			}
+			@include breakpoint(mobile_portrait) {
+				top: 10%;
+			}
+			img {
+				max-height: 100%;
+			}
+		}
+		.form {
+			border: 0;
+			bottom: -100px;
+			width: 100%;
+			max-width: 939px;
+			min-height: 525px;
+			/* antialiasing */
+			outline: 1px solid transparent;
+			-webkit-backface-visibility: hidden;
+			will-change: transform;
+			-webkit-perspective: 1000;
+			backface-visibility: hidden;
+			transform-style: preserve-3d; 
+			-webkit-transform: skew(0, -1.25deg);
+			transform: skew(0, -1.25deg);
+			padding: 50px 0 20px;
+			box-shadow: 0 5px 8px 0 rgba(88, 88, 88, 0.5);
+			margin: 0;
+			@include breakpoint(tablet) {
+				bottom: -190px;
+			}
+			@include breakpoint(mobile_landscape) {
+				padding-top: 90px;
+				 -webkit-transform: skew(0, -2deg);
+					transform: skew(0, -2deg);
+					bottom: -470px;
+			}
+			@include breakpoint(mobile_portrait) {
+				 
+					bottom: -590px;
+			}
+			form {
+				margin-left: 0;
+			}
+			header {
+				width: 75%;
+				margin: 0 auto;
+				display: flex;
+				justify-content: space-between;
+				@include breakpoint(tablet) {
+					width: 85%;
+				}
+				@include breakpoint(mobile_landscape) {
+					display: block;
+				}
+				h3, .tel  {
+					display: inline-block;
+					font-size: 34px;
+					font-size: 3.4rem;
+					font-weight: bold;
+					font-style: normal;
+					font-stretch: normal;
+					line-height: normal;
+					letter-spacing: 1.1px;
+					color: #ffffff;
+					margin: 1em 0;
+					@include breakpoint(tablet) {
+						font-size: 32px;
+						font-size: 3.2rem;
+						letter-spacing: normal;
+					}
+					@include breakpoint(mobile_landscape) {
+						font-size: 30px;
+						font-size: 3rem;
+						letter-spacing: normal;
+					}
+					@include breakpoint(mobile_portrait) {
+						font-size: 28px;
+						font-size: 2.8rem;
+						letter-spacing: normal;
+					}
+				}
+				h3 {
+					@include breakpoint(mobile_landscape) {
+						 text-align: center;
+						 display: block;
+					}
+				}
+				.tel {
+					@include breakpoint(mobile_landscape) {
+						 display: none;
+					}
+				}
+			}
+			> * {
+				-webkit-filter: blur(0.000001px);
+			  position: relative;
+			  top: -3rem;
+			 	backface-visibility: hidden;
+			  transform-style: preserve-3d; 
+			  -webkit-transform: skew(0, 1.25deg);
+			 	transform: skew(0, 1.25deg);
+			 	@include breakpoint(mobile_landscape) {
+			 		 -webkit-transform: skew(0, 2deg);
+			 			transform: skew(0, 2deg);
+			 	}
+			}
+			.gfield_label {
+				font-size: 14px;
+				font-size: 1.4rem;
+				font-weight: 600;
+				line-height: 1.5;
+			}
+			.gform_wrapper .top_label div.ginput_container {
+				margin-top: 0;
+			}
+			input[type="text"], input[type="email"], input[type="tel"], textarea {
+				border: 0;
+			}
+			.gform {
+				&_wrapper {
+					width: 75%;
+					margin: 0 auto;
+					@include breakpoint(tablet) {
+						width: 85%;
+					}
+				}
+				&_button {
+					width: 45.8%;
+					@include breakpoint(mobile_landscape) {
+						width: 100%;
+						// right: 0;
+						margin-top: 16px;
+					}
+				}
+				&_footer {
+					@include breakpoint(mobile_landscape) {
+						padding-left: 0;
+						padding-right: 0;
+					}
+				}
+			}
+			.gfield_label {
+				color: #ffffff;
+			}
+		}
+	}
+
+	
+.feature-container {
+	.form {
+		bottom: -180px;
+		@include breakpoint(tablet) {
+			bottom: -260px;
+		}
+		@include breakpoint(mobile_landscape) {
+			padding-top: 90px;
+			 -webkit-transform: skew(0, -2deg);
+				transform: skew(0, -2deg);
+				bottom: -530px;
+		}
+		@include breakpoint(mobile_portrait) {
+			 
+				bottom: -660px;
+		}
+		.mktoForm {
+			width: 80% !important;
+			margin: 0 auto !important;
+			.mktoOffset {
+				display: none;
+			}
+			.mktoFormRow {
+				.mktoLabel {
+					color: #fff;
+				}
+			.mktoFormCol {
+			.mktoFieldWrap {
+				input[type=text], input[type=url], input[type=email], input[type=tel], input[type=number], input[type=date] {
+					height: 40px;
+				}
+				textarea.mktoField {
+					height: 80px;
+				}
+			}
+		}
+	}	.mktoButtonRow {
+ .mktoButtonWrap {
+.mktoButton {
+width: 96% !important;
+	@include breakpoint(mobile_landscape) {
+		width: 93.5% !important;
+	}
+	@include breakpoint(mobile_portrait) {
+		width: 90.5% !important;
+	}
+}
+}
+}
+		
+		}
+	}
+}
+
+
+
+
+
+
+
+
+	.main-container {
+		padding-top: 252px;
+
+		@include breakpoint(mobile_landscape) {
+			padding-top: 600px;
+		}
+	}
+	.main-content {
+		padding-right: 0;
+	}
+	.intro {
+		text-align: center;
+		max-width: 693px;
+		margin: 0 auto;
+		@include breakpoint(mobile_landscape) {
+			padding-top: 55px;	
+		}
+	}
+	.featured-practice-areas {
+		padding-top: 110px;
+		padding-bottom: 110px;
+		@include breakpoint(mobile_landscape) {
+			padding: 55px 0;	
+		}
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			align-content: center;
+			justify-content: space-between;
+			width: 100%;
+			@include breakpoint(mobile_landscape) {
+				display: block;
+			}
+		}
+		li {
+			height: 233px;
+			width: 33%;
+			max-width: 300px;
+			display: block;
+			box-shadow: 0 2px 2px rgba( 0, 0, 0, .4);
+			@include breakpoint(mobile_landscape) {
+				width: 100%;
+				margin: 10px auto;
+			}
+		}
+		a {
+			background-color: #444;
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: cover;
+			height: 100%;
+			width: 100%;
+		  display: flex;
+		  justify-content: center;
+		  align-items: center;
+		  position: relative;
+			&:hover {
+				text-decoration: none;
+			}
+		  &:after {
+		  	transition: ease-in-out all .2s;
+		  	display: block;
+		  	content: '';
+		  	width: 100%;
+		  	height: 100%;
+		  	position: absolute;
+		  	top: 0;
+		  	left: 0;
+		  	opacity: .7;
+		  	box-shadow: 0 2px 8px 0 rgba(88, 88, 88, 0.5);
+				background-blend-mode: color;
+				background-color: #202020;
+		  }
+		  &:hover:after {
+		  	background-color: #4a91d4;
+		  }
+		}
+		span {
+			font-size: 20px;
+			font-size: 2rem;
+			color: #FFFFFF;
+			letter-spacing: 0.38px;
+			text-align: center;
+			text-transform: uppercase;
+			position: relative;
+			z-index: 1;
+			font-weight: bold;
+		}
+	}
+	.call-to-action {
+		.btn__cta {
+			@include breakpoint(mobile_landscape) {
+				display: block;
+				text-align: center;
+			}
+		}
+		.box__img {
+			@include breakpoint(mobile_landscape) {
+				display: none;
+			}
+		}
+	}
+	.accolades {
+		list-style-type: none;
+		margin: 0;
+		padding: 110px 0 55px;
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		@include breakpoint(mobile_landscape) {
+			display: block;	
+			padding-top: 25px;
+			padding-bottom: 25px;
+		}
+		li {
+			margin: 0 50px;
+			display: flex;
+			  flex-direction: column;
+			  justify-content: center;
+			  @include breakpoint(mobile_landscape) {
+			  	// margin: 0 30px;	
+			  	display: block;
+			  	margin: 0 auto;
+			  	padding: 20px 0;
+			  	text-align: center;
+			  }
+		}
+	}
+}

@@ -1,0 +1,71 @@
+/* ================================== 
+   =HEADER - Banner
+   ==================================*/
+.banner-container {
+  position: relative;
+  height: 102px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @include breakpoint(tablet) {
+    height: 80px;
+  }
+}
+[role="banner"] {
+  display: inline-block;
+  .tel {
+    display: none;
+    font-size: 20px;
+    font-size: 2rem;
+    color: #202020;
+    letter-spacing: 0;
+    text-decoration: none;
+    margin-left: 5%;
+    margin-top: 8px;
+    @include breakpoint(mobile_landscape) {
+      display: block;
+    }
+  }
+
+}
+.navigation {
+  display: inline-block;
+
+}
+.header {
+  &--branding {
+
+    @include breakpoint(tablet) {
+      width: 330px;
+      height: 44px;
+      margin-left: 5%;
+    }
+    @include breakpoint(mobile_landscape) {
+      width: 200px;
+      height: 27px;
+    }
+  }
+}
+.feature-container {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  margin: 0 auto;
+  max-height: 246px;
+  height: 23vw;
+  background-color: #acc4df;
+  @include breakpoint(mobile_landscape) {
+    height: 173px;
+  }
+}
+.feature {
+  position: relative;
+  height: 100%;
+}
+.utility {
+  .btn-box {
+  }
+  .btn-login {
+    
+  }
+}

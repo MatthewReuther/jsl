@@ -1,0 +1,53 @@
+/* ================================== 
+  =Structure - Layout, Frames, Body
+==================================*/
+html, body {
+  height: 100%;
+}
+.page-container {
+
+  width: 100%;
+}
+.frame {
+  max-width: 939px;
+  margin: 0 auto;
+}
+.main-container {
+  margin-bottom: 110px;
+}
+.frame-main {
+  
+}
+.main-content {
+  padding-right: 54px;
+  @include breakpoint(mobile_landscape) {
+  	padding-right: 0;
+  	max-width: 90%;
+  	margin: 0 auto;
+  }
+}
+
+.sidebar {
+  padding-left: 26px;
+}
+
+.branding {
+	display: block;
+	position: relative;
+	z-index: 4;
+	img {
+		max-width: 100%;
+	}
+}
+
+img {
+	max-width: 100%;
+}
+
+.col-xs-12 {
+	@include breakpoint(mobile_landscape) {
+		float: none;
+		padding-right: 0;
+		padding-left: 0;
+	}
+}

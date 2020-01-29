@@ -1,0 +1,28 @@
+/// These define the breakpoints within the css.
+@mixin breakpoint($point) {
+  @if $point == desktop_wide { 
+    @media only screen and (min-width: 1800px) { @content; }
+  }
+	@if $point == tablet_landscape { 
+		@media only screen and (max-width: 1240px) { @content; }
+	}
+  @else if $point == tablet {
+    @media only screen and (max-width: 1024px) { @content; }
+  }
+  @else if $point == mobile_landscape {
+    @media only screen and (max-width: 767px) { @content; }
+  }
+  @else if $point == mobile_portrait {
+    @media only screen and (max-width: 479px) { @content; }
+  }
+  @else {
+    @media only screen and (max-width: $point) { @content; }
+  }
+}
+// declare media query order
+@include breakpoint(tablet_landscape) { html{background-color: transparent;} }
+@include breakpoint(tablet) { html{background-color: transparent;} }
+@include breakpoint(992px) { html{background-color: transparent;} }
+@include breakpoint(mobile_landscape) { html{background-color: transparent;} }
+@include breakpoint(576px) { html{background-color: transparent;} }
+@include breakpoint(mobile_portrait) { html{background-color: transparent;} }

@@ -1,0 +1,23 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+
+# BEGIN MainWP
+
+# END MainWP
+
+redirect 301  /about-us/attorneys/ https://juddshawinjurylaw.com/meet-our-team/
+redirect 301  /about-us/staff/ https://juddshawinjurylaw.com/meet-our-team/
+
+redirect 301  /meet-our-team/anthony-kershaw https://juddshawinjurylaw.com/meet-our-team/
+
+redirect 301 /blog/news/file-personal-injury-claim-new-jersey/ https://www.juddshawinjurylaw.com/about-us/firm-news/

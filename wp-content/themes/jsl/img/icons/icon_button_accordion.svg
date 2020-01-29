@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="29px" viewBox="0 0 29 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>button_plus</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="10.1305449%" y1="14.7313348%" x2="65.1625977%" y2="123.310381%" id="linearGradient-1">
+            <stop stop-color="#F0F5FB" stop-opacity="0.273748868" offset="0%"></stop>
+            <stop stop-color="#38586C" stop-opacity="0.661175272" offset="66.3023844%"></stop>
+            <stop stop-color="#0E354C" stop-opacity="0.282212409" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="button_plus" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-20">
+            <circle id="Oval" fill="#143461" cx="14.5" cy="14.5" r="14.5"></circle>
+            <circle id="Oval-Copy" fill="url(#linearGradient-1)" cx="14.5" cy="14.5" r="14.5"></circle>
+        </g>
+        <polygon id="+" fill="#FFFFFF" points="14.662 14.824 14.662 18.55 13.33 18.55 13.33 14.824 10 14.824 10 13.6 13.33 13.6 13.33 10 14.662 10 14.662 13.6 17.992 13.6 17.992 14.824"></polygon>
+    </g>
+</svg>

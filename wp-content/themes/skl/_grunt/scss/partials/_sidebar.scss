@@ -1,0 +1,49 @@
+/*================================== 
+   =Sidebar
+ ==================================*/
+.sidebar {
+	border-left: 1px solid #acacac;
+	margin-top: 86px;
+	@include breakpoint(992px) {
+		max-width: 90%;
+		margin: 0 auto;
+		border-left: 0;
+		margin-top: 0;
+	
+	}
+	a {
+		color: #202020;
+		display: block;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+
+	nav {
+		li {
+			width: 298px;
+			// height: 56px;
+			@include breakpoint(992px) {
+				width: 100%;
+			}
+		}
+		a {
+				font-size: 20px;
+				font-size: 2rem;
+				font-weight: normal;
+				font-style: normal;
+				font-stretch: normal;
+				line-height: 1.6;
+				letter-spacing: 0.4px;
+				padding-left: 20px;
+				padding-top: 10px;
+				padding-bottom: 10px;
+
+
+		}
+		.current_page_item a, a:hover {
+			background-color: #e6ebf0;
+			text-decoration: none;
+		}
+	}
+}

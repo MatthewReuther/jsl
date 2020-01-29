@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="141" height="141" viewBox="0 0 141 141">
+  <g fill="none" fill-rule="evenodd" transform="translate(5 5)">
+    <circle cx="65.5" cy="65.5" r="65.5" stroke="#87CFEE" stroke-width="4"/>
+    <g stroke="#FFF" stroke-width="2.344" transform="translate(39 37)">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M12.9130435 54.8085106L11.7391304 54.8085106M3.52173913 54.8085106L2.34782609 54.8085106M8.2173913 54.8085106L7.04347826 54.8085106"/>
+      <polyline stroke-linecap="round" stroke-linejoin="round" points="18.783 54.809 18.783 50.043 29.36 50.043"/>
+      <path d="M23.4782609,50.0425532 L23.4782609,19.0638298"/>
+      <path stroke-linecap="round" d="M30.5217391 39.3191489L30.5217391 19.0638298M19.9447826 14.2978723L34.0552174 14.2978723M19.9447826 19.0638298L34.0552174 19.0638298"/>
+      <path d="M15.2608696 54.8085106L35.2291304 54.8085106M23.4665217 14.2978723L23.4665217 19.0638298M30.51 14.2978723L30.51 19.0638298"/>
+      <polygon stroke-linecap="round" stroke-linejoin="round" points="22.199 3.574 27.188 10.723 32.177 3.574"/>
+      <path stroke-linejoin="round" d="M-1.77635684e-15,40.6774468 L-1.77635684e-15,43.0008511 C2.25540154,45.940142 5.72071078,47.6589338 9.39130435,47.6589338 C13.0618979,47.6589338 16.5272072,45.940142 18.7826087,43.0008511 L18.7826087,40.6774468 L-1.77635684e-15,40.6774468 Z"/>
+      <path stroke-linecap="round" d="M18.7826087,36.9361702 L11.6686957,15.1676596"/>
+      <polyline stroke-linecap="round" points="0 36.936 8.534 10.723 23.478 5.957"/>
+      <path stroke-linecap="round" d="M8.41695652,10.7234043 L4.67217391,10.7234043"/>
+      <path stroke-linecap="round" stroke-linejoin="round" d="M35.2173913,29.9540426 L35.2173913,32.2774468 C37.4727928,35.2167377 40.9381021,36.9355296 44.6086957,36.9355296 C48.2792892,36.9355296 51.7445985,35.2167377 54,32.2774468 L54,29.9540426 L35.2173913,29.9540426 Z"/>
+      <path stroke-linecap="round" d="M54,26.212766 L46.886087,4.44425532"/>
+      <polyline stroke-linecap="round" stroke-linejoin="round" points="35.217 26.213 43.752 0 42.249 0 31.696 3.574"/>
+      <path stroke-linecap="round" d="M43.7517391,0 L50.4782609,0"/>
+      <ellipse cx="36.391" cy="47.66" rx="7.043" ry="7.149"/>
+      <polyline stroke-linejoin="round" points="43.435 50.043 54 50.043 54 54.809 36.391 54.809"/>
+      <polyline stroke-linejoin="round" points="43.435 45.277 51.652 45.277 51.652 50.043 43.435 50.043"/>
+      <path stroke-linecap="round" stroke-linejoin="round" d="M36.3913043,46.4680851 L36.3913043,48.8510638"/>
+    </g>
+  </g>
+</svg>

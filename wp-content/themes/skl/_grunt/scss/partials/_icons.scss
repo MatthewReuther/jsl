@@ -1,0 +1,121 @@
+/*================================== 
+   =Icons
+  ==================================*/
+.icon-document {
+  display: inline-block;
+  margin-right: 12px;
+  svg {
+    fill: $primary_color;
+    width: 30px;
+    height: 36px;
+    transition: ease-in-out all .2s;
+  }
+}
+.icon-play {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 11px 11px 11px 17px;
+  transition: ease-in-out all .2s;
+  img, svg {
+    fill: #fff;
+    height: 25px;
+    width: 20px;
+    transition: ease-in-out all .2s;
+  }
+  &:hover {
+    cursor: pointer;
+    svg {
+      fill: $primary_color;
+      transition: ease-in-out all .2s;
+    }
+  }
+}
+
+.icon-menu {
+  display: block;
+  height: 3px;
+  width: 20px;
+  background-color: #202020;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: ease-in-out all 0.2s; 
+  &:before, &:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 20px;
+    background-color: #202020;
+    position: relative;
+     transition: all 0.3s;
+  }
+  &:before {
+    top: -6px;
+  }
+  &:after {
+    bottom: -3px;
+    // top: -100%;
+  }
+}
+
+.icon-close {
+  display: block;
+  height: 17px;
+  width: 17px;
+  svg {
+    vertical-align: top;
+    width: 18px;
+    height: 18px;
+    fill: #fff;
+    transition: ease-in-out all .2s;
+  }
+}
+
+.icon-features {
+  svg {
+    height: 45px;
+    width: 42px;
+  }
+}
+.icon-price {
+  svg {
+    height: 45px;
+    width: 67px;
+  }
+}
+.icon-results {
+  svg {
+    height: 36px;
+    width: 43px;
+  }
+}
+
+/// Social Icons
+.social-icon {
+    display: block;
+    font-size: 14px;
+    font-size: 1.4rem;
+    height: 45px;
+    line-height: 1;
+    padding: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 45px;
+    text-align: center;
+  &:hover {
+    svg {
+      fill: #117aca;
+    }
+  }
+  svg {
+    transition: ease-in-out all .2s;
+    fill: #fff;
+    height: 25px;
+    vertical-align: middle;
+    width: 25px;
+  }
+}
